@@ -1,0 +1,31 @@
+# Archivos de compilación y build
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+
+# Archivos de build del módulo app
+app/build/
+app/.cxx/
+
+# Archivos de keystore (seguridad)
+*.jks
+*.keystore
+
+# Archivos del sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride

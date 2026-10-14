@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cajero Electrónico</string>
+
+    <!-- Etiquetas principales -->
+    <string name="label_saldo_disponible">Saldo Disponible</string>
+    <string name="label_realizar_operacion">Realizar Operación</string>
+    <string name="label_historial">Historial de Transacciones</string>
+
+    <!-- Hints y botones -->
+    <string name="hint_ingrese_monto">Ingrese el monto</string>
+    <string name="btn_consignar">CONSIGNAR</string>
+    <string name="btn_retirar">RETIRAR</string>
+    <string name="btn_limpiar">Limpiar</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="msg_consignacion_exitosa">Consignación exitosa. Nuevo saldo: %1$s</string>
+    <string name="msg_retiro_exitoso">Retiro exitoso. Nuevo saldo: %1$s</string>
+
+    <!-- Mensajes de error -->
+    <string name="msg_monto_invalido">Por favor ingrese un monto válido mayor a cero.</string>
+    <string name="msg_campo_vacio">El campo de monto no puede estar vacío.</string>
+    <string name="msg_sin_transacciones">No hay transacciones en esta sesión.</string>
+    <string name="msg_historial_limpiado">Historial de sesión limpiado.</string>
+
+    <!-- Accesibilidad -->
+    <string name="desc_saldo_actual">Saldo actual de la cuenta</string>
+    <string name="desc_campo_monto">Campo para ingresar el monto de la operación</string>
+    <string name="desc_boton_consignar">Botón para realizar una consignación</string>
+    <string name="desc_boton_retirar">Botón para realizar un retiro</string>
+</resources>

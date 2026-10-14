@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/bg_item_transaccion">
+
+    <!-- Ícono del tipo de transacción -->
+    <TextView
+        android:id="@+id/tvIcono"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/bg_icono_transaccion"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Detalle de la transacción -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTipoTransaccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_primario" />
+
+        <TextView
+            android:id="@+id/tvSaldoResultante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/texto_secundario"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <!-- Monto de la transacción -->
+    <TextView
+        android:id="@+id/tvMontoTransaccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores primarios -->
+    <color name="verde_primario">#1B8A4E</color>
+    <color name="verde_oscuro">#145E35</color>
+    <color name="verde_claro">#E8F5EE</color>
+
+    <!-- Colores de acción -->
+    <color name="rojo_retiro">#D32F2F</color>
+    <color name="rojo_claro">#FFEBEE</color>
+    <color name="verde_exito">#2E7D32</color>
+    <color name="verde_exito_claro">#E8F5E9</color>
+    <color name="naranja_advertencia">#E65100</color>
+    <color name="naranja_claro">#FFF3E0</color>
+
+    <!-- Fondos -->
+    <color name="fondo">#F4F6F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+
+    <!-- Texto -->
+    <color name="texto_primario">#1A1A2E</color>
+    <color name="texto_secundario">#757575</color>
+    <color name="texto_blanco">#FFFFFF</color>
+
+    <!-- Material / sistema -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+</resources>
